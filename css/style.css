@@ -90,6 +90,15 @@ ul {
     font-weight: 700;
     position: relative;
 }
+.bullet {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #000; /* couleur de la balle */
+    border-radius: 50%;
+    margin-right: 8px; /* espace entre la balle et le texte */
+}
+
 .section-title h2::before
 {
     content: '';
